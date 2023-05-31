@@ -93,7 +93,7 @@ const jugador = new Jugador({
         },
         //al recibir daño
         takeHit:{
-            imgSrc : './img/mago_guerrero/Take Hit.png',
+            imgSrc : './img/mago_guerrero/Take_Hit.png',
             framesMax :  3
         },
         //al morir
@@ -174,7 +174,7 @@ const enemigo = new Jugador({
         },
         //al recibir daño
         takeHit:{
-            imgSrc :'./img/mago/Take hit.png',
+            imgSrc :'./img/mago/Take_Hit.png',
             framesMax :  3
         },
         //cuando ninja muere
