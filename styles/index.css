@@ -1,0 +1,325 @@
+*{  
+   
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#body{
+    background-color:  #F1F6F9;
+}
+
+#container{
+    font-family: 'Prompt', sans-serif;  
+    background-color: #F1F6F9;
+}
+
+#ddown{
+    box-shadow: none;
+}
+
+#nav-titulo{
+    font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               transition:0.3s ease;
+}
+
+nav {
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent; 
+     line-height:40px;  
+     transition:0.3s ease;
+} 
+
+#logo{
+    height: 75px;
+    margin-right: 10px;
+}
+
+
+ nav a {
+     font-weight: bold !important;
+ }
+ 
+ button.navbar-toggler {
+     margin-right: 30px !important;
+ }
+ 
+ .nav-item {
+     margin-right: 50px !important;
+ }
+
+#t-logo{
+    letter-spacing: 5px;
+    font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+ #navbarResponsive a:hover {
+
+     color: #1e1b4b !important;
+     background-color: #F6F1F1 !important;
+     text-shadow: NONE;
+     transition: 0.2s ease;
+ }
+
+ #navbarResponsive a{
+    line-height: -10PX;
+    display: flex;
+    align-items: center;
+ }
+
+ #a{
+
+    padding:25px;
+    
+ }
+
+#container{
+    height:auto
+}
+
+#sec1{
+    padding-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+header{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#header{
+    border-bottom: 15PX SOLID #212A3E;
+    position: relative;
+}
+
+#pointerc{
+    position: absolute;
+    height: 80%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+#pointer{
+    padding: 30px;
+    height: 150px;
+    transition: 0.3S ease;
+}
+
+#pointer:hover{
+    height: 155px;
+}
+
+#interior-sec1{
+    display: flex;
+    padding:50px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img-sec1{
+    margin: 20PX;
+    height: 400px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+#titulo{
+    text-align: start;    
+    font-weight: bolder;
+}
+
+#texto-sec1{
+    display: flex;
+    flex-direction: column;
+    margin: 20PX;
+}
+
+#parrafo-sec1{
+    font-size:17px;
+}
+
+#sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sec2 h1{
+    font-size: 45px;
+    font-weight: bold;
+    padding: 40PX;
+}
+
+#cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#caja{
+    padding: 50PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #1e1b4b;
+    margin: 20PX;
+    width: 35%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#caja:hover{
+    background-color: #e1f1f8;
+}
+
+#caja img{
+    height: 250px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+}
+#texto{
+    text-align: center;
+    padding: 30px;
+    font-size: 18PX;
+}
+
+
+
+#titulo-sec2{
+    font-weight: bolder;
+    font-size: 27px;
+    font-family: 'Press Start 2P', cursive !important;
+}
+
+#boton-sec2{
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #212A3E;
+    color: white;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 13px;
+    transition: 0.3 ease;
+    
+}
+
+#boton-sec2:hover{
+    background-color: #556b9b;
+}
+
+footer{
+    height: 33vh;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover{
+    color: rgb(194, 194, 233);
+
+}
+
+#ftitulo{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.seccion-footer {
+    flex: 1;
+    min-width: 250px;
+    padding: 0 20px;
+}
+
+.seccion-footer h4 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.seccion-footer p {
+    margin-bottom: 10px;
+}
+
+.seccion-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.seccion-footer a:hover {
+    color: #AFD3E2;
+    text-decoration: underline;
+}
