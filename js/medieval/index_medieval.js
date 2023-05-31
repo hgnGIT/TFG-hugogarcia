@@ -174,7 +174,7 @@ const enemigo = new Jugador({
         },
         //al recibir daño
         takeHit:{
-            imgSrc :'./img/caballero2/Get hit.png',
+            imgSrc :'./img/caballero2/Get_Hit.png',
             framesMax :  3
         },
         //cuando ninja muere
