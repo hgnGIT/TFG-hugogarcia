@@ -214,13 +214,16 @@ footer {
 }
 
 #container button img{
-    height: 70px;
+    height: 55  px;
+}
+
+#txt{
+    padding: 15px;
 }
 
 #container button{
 
     font-size: 15px;
-    margin-top: 30PX;
     border-radius:5px ; 
 }
 
