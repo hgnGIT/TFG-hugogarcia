@@ -43,6 +43,7 @@ nav {
     text-align: center;
     justify-content: center;
     background-color: transparent; 
+    border-bottom:10PX SOLID #0e0c28;
      line-height:40px;  
 } 
 

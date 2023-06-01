@@ -45,6 +45,7 @@ nav {
     justify-content: center;
     background-color: transparent; 
      line-height:40px;  
+     border-bottom:10PX SOLID #0e0c28;
 } 
 
 #logo{
@@ -204,10 +205,11 @@ footer {
 
 #container{
     flex-direction: column;
+    font-family: 'Press Start 2P', cursive !important;
     padding: 60px;
-    margin: 30PX;
     display: flex;
     justify-content: center;
+    background-color: #F1F6F9;
     align-items: center;
 }
 
@@ -228,6 +230,7 @@ footer {
 
 #board {
     background-image: url("../img/assets-jump/bgjump.png");
+    
  
 }
 

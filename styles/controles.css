@@ -45,6 +45,7 @@ nav {
     justify-content: center;
     background-color: transparent; 
      line-height:40px;  
+     border-bottom:10PX SOLID #0e0c28;
 } 
 
 #logo{
@@ -215,6 +216,7 @@ footer {
     font-family: 'Press Start 2P', cursive !important;
     padding-bottom: 40px;
     margin:15px;
+    
 }
 
 #contenedor #h1{
@@ -222,6 +224,7 @@ footer {
     /* font-family: 'Press Start 2P', cursive !important; */
     padding: 10px;
     margin:15px;
+
 
 }
 
@@ -238,7 +241,7 @@ footer {
 }
 
 
-#box1, #box2{
+#box1, #box2, #box3{
     margin: 30px;
     font-family: 'Prompt', sans-serif;  
     padding:30px;
@@ -251,9 +254,31 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
+#contenido2{
+    margin:30px;
+    text-align: center;
+}
+
 #box1 img, #box2 img{
-    margin: 20px;
+   
     height: 150PX;
+}
+
+#box1:hover{
+    background-color: #d6eaf3;
+}
+
+#box2:hover{
+    background-color: rgb(244, 211, 211);
+}
+
+#box3:hover{
+    background-color: rgb(249, 226, 249);
+}
+
+#box3 img{
+    height: 80px;
+    margin: 20px;
 }
 
 h3{

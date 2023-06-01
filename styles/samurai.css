@@ -38,6 +38,7 @@
 
 nav {
     background-color: #1e1b4b;
+    border-bottom:10PX SOLID #0e0c28;
     height: 120px;
     justify-content: center;
     align-items: center;

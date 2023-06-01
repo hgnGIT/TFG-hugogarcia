@@ -39,6 +39,7 @@
 nav {
     background-color: #1e1b4b;
     height: 120px;
+    border-bottom:10PX SOLID #0e0c28;
     justify-content: center;
     align-items: center;
     text-align: center;

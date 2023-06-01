@@ -44,6 +44,7 @@ nav {
     justify-content: center;
     background-color: transparent; 
      line-height:40px;  
+     border-bottom:10PX SOLID #0e0c28;
 } 
 
 #logo{
