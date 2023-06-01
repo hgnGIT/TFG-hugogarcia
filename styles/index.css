@@ -123,7 +123,7 @@ header{
 }
 
 #header{
-    border-bottom: 15PX SOLID #212A3E;
+    border-bottom: 10PX SOLID #1e1b4b;
     position: relative;
 }
 
@@ -322,4 +322,32 @@ footer {
 .seccion-footer a:hover {
     color: #AFD3E2;
     text-decoration: underline;
+}
+
+@keyframes slide{
+
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%)
+    }
+
+}
+
+#logos{
+    background-color: #F1F6F9;
+    overflow: hidden;
+    padding: 40px;
+    white-space: nowrap;
+}
+
+#logos-slide{
+    display: inline-block;
+    animation: 25s slide infinite linear;
+}
+
+#logos-slide img{
+    height:100PX;
+    margin: 0 40px;
 }

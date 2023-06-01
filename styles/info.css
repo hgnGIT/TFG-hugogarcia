@@ -135,6 +135,18 @@ header{
     position: absolute;
     font-size: 60PX;
     font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(255, 255, 255, 0.1),
+               0 0 5px rgba(255, 255, 255, 0.1),
+               0 1px 3px rgba(255, 255, 255, 0.3),
+               0 3px 5px rgba(255, 255, 255, 0.2),
+               0 5px 10px rgba(255, 255, 255, 0.25),
+               0 10px 10px rgba(255, 255, 255, 0.2),
+               0 20px 20px rgba(255, 255, 255, 0.15);
 }
 
 footer{
@@ -212,7 +224,7 @@ footer {
 }
 
 #container{
-    padding:40px;
+    padding:50px;
     text-align: start;
     display: flex;
     align-items: center;
@@ -223,6 +235,7 @@ footer {
 
 #info1{
     display: flex;
+    margin:30px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -231,6 +244,7 @@ footer {
 
 #info2{
     display: flex;
+    margin:30px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -238,6 +252,7 @@ footer {
 }
 
 #info3{
+    margin:30 0 30 30;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,6 +282,8 @@ header{
 #container h1{
     font-family: 'Press Start 2P', cursive !important;
     font-size: 30px;
+    margin-bottom: 25PX;
+    color: rgb(64, 6, 6);
     
 }
 
@@ -275,4 +292,33 @@ header{
     font-size: 20PX;
     width: 100%;
     
+}
+
+@keyframes slide{
+
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%)
+    }
+
+}
+
+#logos{
+    background-color: #F1F6F9;
+    overflow: hidden;
+    padding: 40px;
+    white-space: nowrap;
+}
+
+#logos-slide{
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+#logos-slide img{
+    height:150PX;
+    margin: 0 60px;
+
 }

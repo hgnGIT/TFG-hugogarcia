@@ -203,15 +203,18 @@ footer {
 
 #contenedor-avisolegal {
     padding: 50px;
+    background-color: #F1F6F9;
     font-family: 'Prompt', sans-serif;  
 }
 
 #titulo {
+    text-align: center;
     font-size: 30PX;
     font-weight: bolder;
 }
 
 #contenedor-avisolegal a {
+    
     text-decoration: none;
     color: #007BFF;
 }
@@ -220,3 +223,4 @@ footer {
     text-decoration: underline;
     color: #007BFF;
 }
+

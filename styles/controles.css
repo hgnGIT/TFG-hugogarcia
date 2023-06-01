@@ -7,11 +7,12 @@
 
 #body{
     background-color:  #F1F6F9;
+    background-color: #F1F6F9;
 }
 
-#container{
+#contenedor{
     font-family: 'Prompt', sans-serif;  
-    background-color: #F1F6F9;
+    background-color: #F1F6F9 !important;
 }
 
 #ddown{
@@ -258,5 +259,35 @@ footer {
 h3{
     font-size: 30px;
     font-family: 'Press Start 2P', cursive !important;
+
+}
+
+@keyframes slide{
+
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-100%)
+    }
+
+}
+
+#logos{
+    background-color: #F1F6F9;
+    overflow: hidden;
+    padding: 40px;
+    white-space: nowrap;
+    
+}
+
+#logos-slide{
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+
+#logos-slide img{
+    height:150PX;
+    margin: 0 60px;
 
 }
