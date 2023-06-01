@@ -7,11 +7,12 @@
 
 #body{
     background-color:  #F1F6F9;
+    background-color: #F1F6F9;
 }
 
-#container{
+#contenedor{
     font-family: 'Prompt', sans-serif;  
-    background-color: #F1F6F9;
+    background-color: #F1F6F9 !important;
 }
 
 #ddown{
@@ -36,6 +37,7 @@
 }
 
 nav {
+    background-color: #1e1b4b;
     height: 120px;
     justify-content: center;
     align-items: center;
@@ -43,7 +45,6 @@ nav {
     justify-content: center;
     background-color: transparent; 
      line-height:40px;  
-     transition:0.3s ease;
 } 
 
 #logo{
@@ -98,56 +99,33 @@ nav {
  #a{
 
     padding:25px;
+    background-color: #212A3E;
     
  }
 
-#container{
-    height:auto
+
+h2{
+    font-size: 27px;
 }
 
-#sec1{
-    padding-top:50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+canvas{
+    border:14px solid #11102c;
 }
 
-header{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-
-#header{
-    border-bottom: 15PX SOLID #212A3E;
+#div-entero{
     position: relative;
-    display: flex;
-    align-items: center;
+     display: inline-block;
+    margin: 40px;
 }
 
-#titulo{
-    color: white;
-    z-index: 1;
+#topbar {
     position: absolute;
-    font-size: 60PX;
-    font-family: 'Press Start 2P', cursive !important;
-    text-shadow: 0 1px 0 #010101,
-               0 2px 0 #010101,
-               0 3px 0 #010101,
-               0 4px 0 #010101,
-               0 5px 0 #010101,
-               0 6px 1px rgba(255, 255, 255, 0.1),
-               0 0 5px rgba(255, 255, 255, 0.1),
-               0 1px 3px rgba(255, 255, 255, 0.3),
-               0 3px 5px rgba(255, 255, 255, 0.2),
-               0 5px 10px rgba(255, 255, 255, 0.25),
-               0 10px 10px rgba(255, 255, 255, 0.2),
-               0 20px 20px rgba(255, 255, 255, 0.15);
+     display: flex; 
+     align-items: center;
+      width:100%; padding: 
+      20px;
 }
+
 
 footer{
     height: 33vh;
@@ -223,106 +201,37 @@ footer {
     text-decoration: underline;
 }
 
+
 #container{
-    padding:50px;
-    text-align: start;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-}
-
-
-#info1{
-    display: flex;
-    margin:35px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 40PX;
-    border-bottom: 1px solid gray;
-    
-    
-}
-
-#info2{
-    display: flex;
-    margin:35px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 40PX;
-    border-bottom: 1px solid gray;
-}
-
-#info3{
-    margin:30 0 30 30;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#txt{
-    width: 90%;
-    text-align: center;
-}
-
-
-header{
-    
+    padding: 60px;
+    margin: 30PX;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
 }
 
-#header{
-    border-bottom: 15PX SOLID #212A3E;
-    position: relative;
+#container button img{
+    height: 70px;
 }
 
-#container h1{
+#container button{
+
+    font-size: 15px;
+    margin-top: 30PX;
+    border-radius:5px ; 
+}
+
+#container button:hover{
+    background-color: rgb(167, 165, 165);
+}
+
+#board {
+    background-image: url("../img/assets-jump/bgjump.png");
+ 
+}
+
+#titulo{
+    margin: 40px;
     font-family: 'Press Start 2P', cursive !important;
-    font-size: 30px;
-    margin-bottom: 25PX;
-    color: rgb(64, 6, 6);
-    
-}
-
-#container p{
-    font-family: 'Prompt', sans-serif;  
-    font-size: 20PX;
-    width: 100%;
-    
-}
-
-@keyframes slide{
-
-    from{
-        transform:translateX(0);
-    }
-    to{
-        transform:translateX(-100%)
-    }
-
-}
-
-#logos{
-    background-color: #F1F6F9;
-    overflow: hidden;
-    padding: 40px;
-    white-space: nowrap;
-}
-
-#logos-slide{
-    display: inline-block;
-    animation: 20s slide infinite linear;
-}
-
-#logos-slide img{
-    height:150PX;
-    margin: 0 60px;
-
 }
