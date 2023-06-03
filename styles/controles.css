@@ -223,7 +223,6 @@ footer {
     font-size:45px ;
     /* font-family: 'Press Start 2P', cursive !important; */
     padding: 10px;
-    margin:15px;
 
 
 }
@@ -238,15 +237,20 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    
+    border-bottom: 2PX SOLID grey;
+    
 }
 
 
-#box1, #box2, #box3{
+#box1, #box2, #box3, #box4{
+    
+    flex-direction: column;
+    align-self: center;
     margin: 30px;
     font-family: 'Prompt', sans-serif;  
-    padding:30px;
+    padding:20px;
     text-align: center;
-    margin-left:auto ;
     border: 3px solid #11102c;
     border-radius: 10px;
     height: auto;
@@ -255,13 +259,39 @@ footer {
 }
 
 #contenido2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin:30px;
     text-align: center;
+    
 }
+
+#contenido3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px;
+    border-bottom: 2PX SOLID grey;
+    text-align: center;
+}
+
 
 #box1 img, #box2 img{
    
     height: 150PX;
+}
+
+#imagenes3 img{
+    height: 150px;
+    padding: 5px;
+}
+
+#imagenes3 #teclado{
+    height: 90px;
+    padding: 20px;
 }
 
 #box1:hover{
@@ -274,6 +304,10 @@ footer {
 
 #box3:hover{
     background-color: rgb(249, 226, 249);
+}
+
+#box4:hover{
+    background-color: rgb(226, 248, 236);
 }
 
 #box3 img{
@@ -312,7 +346,7 @@ h3{
 }
 
 #logos-slide img{
-    height:150PX;
+    height:100PX;
     margin: 0 60px;
 
 }

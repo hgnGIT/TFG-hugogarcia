@@ -232,12 +232,17 @@ footer {
 }
 
 #board {
+    margin: 10px ;
     background-image: url("../img/assets-jump/bgjump.png");
     
  
 }
 
-#titulo{
-    margin: 40px;
+#container h1{
+    margin: 20px;
     font-family: 'Press Start 2P', cursive !important;
+}
+
+.t{
+    color:#0d8f38
 }

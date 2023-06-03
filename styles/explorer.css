@@ -12,6 +12,7 @@
 
 #contenedor{
     font-family: 'Prompt', sans-serif;  
+    padding: 40px;
     background-color: #F1F6F9 !important;
 }
 
@@ -206,50 +207,25 @@ footer {
 #container{
     flex-direction: column;
     font-family: 'Press Start 2P', cursive !important;
-    padding: 60px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     background-color: #F1F6F9;
     align-items: center;
 }
 
-#container button img{
-    height: 55  px;
-}
-
-#txt{
-    padding: 15px;
-}
-
-#container button{
-
-    font-size: 15px;
-    border-radius:5px ; 
-}
-
-#container button:hover{
-    background-color: rgb(167, 165, 165);
-}
-
-#board {
-    background-image: url("../img/assets-jump/bgjump.png");
-    
- 
-}
-
-#titulo{
-    margin: 40px;
-    font-family: 'Press Start 2P', cursive !important;
-}
 
 #container h1{
     color:#11102c;
     font-family: 'Press Start 2P', cursive !important;
     font-size: 30PX;
-    padding:15px
     
 }
 
+canvas{
+    margin: 40px;
+}
+
 .t{
-    color:#3d3a87
+    color:#b00c09
 }

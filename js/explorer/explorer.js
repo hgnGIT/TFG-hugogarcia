@@ -61,46 +61,46 @@ const player = new Player({
   },
   collisionBlocks,
   platformCollisionBlocks,
-  imageSrc: './img/warrior/Idle.png',
+  imageSrc: './img/explorer/Idle.png',
   frameRate: 8,
   animations: {
     Idle: {
-      imageSrc: './img/warrior/Idle.png',
+      imageSrc: './img/explorer/Idle.png',
       frameRate: 8,
       frameBuffer: 3,
     },
     Run: {
-      imageSrc: './img/warrior/Run.png',
+      imageSrc: './img/explorer/Run.png',
       frameRate: 8,
       frameBuffer: 5,
     },
     Jump: {
-      imageSrc: './img/warrior/Jump.png',
+      imageSrc: './img/explorer/Jump.png',
       frameRate: 2,
       frameBuffer: 3,
     },
     Fall: {
-      imageSrc: './img/warrior/Fall.png',
+      imageSrc: './img/explorer/Fall.png',
       frameRate: 2,
       frameBuffer: 3,
     },
     FallLeft: {
-      imageSrc: './img/warrior/FallLeft.png',
+      imageSrc: './img/explorer/FallLeft.png',
       frameRate: 2,
       frameBuffer: 3,
     },
     RunLeft: {
-      imageSrc: './img/warrior/RunLeft.png',
+      imageSrc: './img/explorer/RunLeft.png',
       frameRate: 8,
       frameBuffer: 5,
     },
     IdleLeft: {
-      imageSrc: './img/warrior/IdleLeft.png',
+      imageSrc: './img/explorer/IdleLeft.png',
       frameRate: 8,
       frameBuffer: 3,
     },
     JumpLeft: {
-      imageSrc: './img/warrior/JumpLeft.png',
+      imageSrc: './img/explorer/JumpLeft.png',
       frameRate: 2,
       frameBuffer: 3,
     },
@@ -193,7 +193,35 @@ window.addEventListener('keydown', (event) => {
       keys.a.pressed = true
       break
     case 'w':
-      player.velocity.y = -4
+      if(player.velocity.y===0)player.velocity.y = -4
+      event.preventDefault();
+      break
+    case 'D':
+      keys.d.pressed = true
+      break
+    case 'A':
+      keys.a.pressed = true
+      break
+    case 'W':
+      if(player.velocity.y===0)player.velocity.y = -4
+      event.preventDefault();
+      break
+    case 'ArrowLeft':
+      keys.a.pressed = true
+      break
+    case 'ArrowRight':
+      keys.d.pressed = true
+      break
+    case ' ':
+      if(player.velocity.y===0)player.velocity.y = -4
+      event.preventDefault();
+      break
+      case 'ArrowUp':
+        if(player.velocity.y===0)player.velocity.y = -4
+      event.preventDefault();
+      break
+      case 'ArrowDown':
+      event.preventDefault();
       break
   }
 })
@@ -204,6 +232,18 @@ window.addEventListener('keyup', (event) => {
       keys.d.pressed = false
       break
     case 'a':
+      keys.a.pressed = false
+      break
+      case 'D':
+      keys.d.pressed = false
+      break
+    case 'A':
+      keys.a.pressed = false
+      break
+    case 'ArrowRight':
+      keys.d.pressed = false
+      break
+    case 'ArrowLeft':
       keys.a.pressed = false
       break
   }

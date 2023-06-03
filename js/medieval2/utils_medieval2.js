@@ -34,7 +34,7 @@ function decidirGanador({jugador, enemigo, tiempoID}){
 
 
 //el tiempo de juego es de 60 segundos
-let tiempo = 60;
+let tiempo = 61;
 let tiempoID
 
 //funcion para disminuir el tiempo
