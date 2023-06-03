@@ -405,6 +405,7 @@ window.addEventListener('keydown', (event) => {
         //pulsar flecha arriba (saltar)
         case 'ArrowUp':
             if (enemigo.velocity.y === 0) enemigo.velocity.y = -15;
+            event.preventDefault();
         break
         //pulsar flecha hacia abajo (ataque)
         case 'ArrowDown':
