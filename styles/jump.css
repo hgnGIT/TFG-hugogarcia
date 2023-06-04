@@ -131,6 +131,8 @@ canvas{
 footer{
     height: 33vh;
     text-decoration: none;
+    height: auto;
+    text-decoration: none;
 }
 
 footer a{
@@ -239,6 +241,7 @@ footer {
 }
 
 #container h1{
+    font-size: 30px;
     margin: 20px;
     font-family: 'Press Start 2P', cursive !important;
 }

@@ -167,6 +167,9 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 40px 0;
+    height: auto;
+    text-decoration: none;
+    
 }
 
 .contenedor-footer {
@@ -239,7 +242,7 @@ footer {
 
 
 #box{
-    width: 40%;
+    width: 250PX;
     background-color: white;
     margin: 15px;
     height: 350px;
@@ -275,7 +278,7 @@ footer {
 }
 
 #box img{
-    height: 170px;
+    height: 140px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 20px -10px;

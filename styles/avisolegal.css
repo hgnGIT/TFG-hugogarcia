@@ -128,8 +128,9 @@ canvas{
 
 
 footer{
-    height: 33vh;
+    height: auto;
     text-decoration: none;
+    text-align: center;
 }
 
 footer a{

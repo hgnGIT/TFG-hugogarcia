@@ -152,6 +152,8 @@ header{
 footer{
     height: 33vh;
     text-decoration: none;
+    height: auto;
+    text-decoration: none;
 }
 
 footer a{
