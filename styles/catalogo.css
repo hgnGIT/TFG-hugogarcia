@@ -222,13 +222,14 @@ footer {
 }
 
 #boton{
-    padding: 8px;
-    border-radius: 6px;
+    padding: 3px;
+    border-radius: 5px;
     background-color: #212A3E;
     color: white;
     font-family: 'Press Start 2P', cursive !important;
-    font-size: 13px;
+    font-size: 12px;
     transition: 0.3 ease;
+    margin: 5px;
     
 }
 
@@ -236,38 +237,47 @@ footer {
     background-color: #556b9b;
 }
 
-#botones{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #box{
-    width: 33.3%;
+    width: 90%;
     background-color: white;
     margin: 15px;
+    height: 350px;
     border: 2px solid #11102c;
     border-radius: 5px;
     display: flex;
     padding: 15PX;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#box:hover{
+    background-color: rgb(236, 233, 233);
+}
+
+#interior-box{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    text-align: center;
+    height: 60%;
 }
 
 #cajas{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 
 }
 
 #box img{
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 20px -10px;
+
 }
 
 @keyframes slide{

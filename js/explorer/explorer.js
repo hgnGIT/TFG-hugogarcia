@@ -121,7 +121,7 @@ const background = new Sprite({
     x: 0,
     y: 0,
   },
-  imageSrc: 'img/assets-fondo/bg_explorer.png',
+  imageSrc: 'img/assets-fondo/bgexp.png',
 })
 
 const backgroundImageHeight = 432
@@ -217,7 +217,7 @@ window.addEventListener('keydown', (event) => {
       event.preventDefault();
       break
       case 'ArrowUp':
-        if(player.velocity.y===0)player.velocity.y = -4
+        if(player.velocity.y===0)player.velocity.y = -3.6
       event.preventDefault();
       break
       case 'ArrowDown':
