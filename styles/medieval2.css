@@ -1,0 +1,387 @@
+/*
+
+    ESTILO DEL JUEGO
+    HUGO GARCIA NIETO
+
+*/
+
+*{  
+   
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#body{
+    background-color:  #F1F6F9;
+}
+
+#container{
+    font-family: 'Prompt', sans-serif;  
+    background-color: #F1F6F9;
+}
+
+#ddown{
+    box-shadow: none;
+}
+
+#nav-titulo{
+    font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+               transition:0.3s ease;
+}
+
+nav {
+    background-color: #1e1b4b;
+    height: 120px;
+    border-bottom:10PX SOLID #0e0c28;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent; 
+     line-height:40px;  
+} 
+
+#logo{
+    height: 75px;
+    margin-right: 10px;
+}
+
+
+ nav a {
+     font-weight: bold !important;
+ }
+ 
+ button.navbar-toggler {
+     margin-right: 30px !important;
+ }
+ 
+ .nav-item {
+     margin-right: 50px !important;
+ }
+
+#t-logo{
+    letter-spacing: 5px;
+    font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+ #navbarResponsive a:hover {
+
+     color: #1e1b4b !important;
+     background-color: #F6F1F1 !important;
+     text-shadow: NONE;
+     transition: 0.2s ease;
+ }
+
+ #navbarResponsive a{
+    line-height: -10PX;
+    display: flex;
+    align-items: center;
+ }
+
+ #a{
+
+    padding:25px;
+    background-color: #212A3E;
+    
+ }
+
+
+h2{
+    font-size: 27px;
+}
+
+canvas{
+    border:14px solid #11102c;
+}
+
+#div-entero{
+    position: relative;
+     display: inline-block;
+    margin: 40px;
+}
+
+#topbar {
+    position: absolute;
+     display: flex; 
+     align-items: center;
+      width:100%; padding: 
+      20px;
+}
+
+
+footer{
+    height: 33vh;
+    text-decoration: none;
+     height: auto;
+    text-decoration: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer a:hover{
+    color: rgb(194, 194, 233);
+
+}
+
+#ftitulo{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive !important;
+    text-shadow: 0 1px 0 #010101,
+               0 2px 0 #010101,
+               0 3px 0 #010101,
+               0 4px 0 #010101,
+               0 5px 0 #010101,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.seccion-footer {
+    flex: 1;
+    min-width: 250px;
+    padding: 0 20px;
+}
+
+.seccion-footer h4 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.seccion-footer p {
+    margin-bottom: 10px;
+}
+
+.seccion-footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.seccion-footer a:hover {
+    color: #AFD3E2;
+    text-decoration: underline;
+}
+
+
+#tiempo{
+    font-family: 'Press Start 2P', cursive !important;
+    font-family: 'Press Start 2P', cursive !important;
+    border:4px solid white; 
+    background-color: #11102c; 
+    height: 70px; 
+    color:white; 
+    width: 100px; 
+    flex-shrink: 0; 
+    display: flex; 
+    align-items: center;
+     justify-content: center;
+}
+
+#mostrarTexto{
+    font-family: 'Press Start 2P', cursive !important;
+    font-size:45px;position:absolute; color:white;align-items: center; justify-content: center; top:0;right:0;bottom:0;left:0; display: none;
+}
+#aviso{
+    display: none;
+}
+#salud-jugador{
+    position: absolute; background-color: #4ade80; top:0;right:0;bottom:0;width: 100%;transition: width 0.2s ease;
+}
+
+#s2j{
+    background-color: #ef4444; height: 30px; width: 100%;
+}
+
+#barra-j{
+    position: relative; width:100%;display: flex; justify-content: flex-end; border-top:4px solid white; border-left:4px solid white; border-bottom:4px solid white
+}
+
+#salud-enemigo{
+    position: absolute; background-color: #4ade80; top:0;right:0;bottom:0;left:0;width: 100%;transition: width 0.2s ease;
+}
+
+#s2e{
+    background-color: #ef4444; height: 30px;
+}
+
+#barra-e{
+    position: relative; width:100%; border-top:4px solid white; border-right:4px solid white; border-bottom:4px solid white;
+}
+
+#container{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container h1{
+    color:#11102c;
+    font-family: 'Press Start 2P', cursive !important;
+    font-size: 30PX;
+    padding:5px;
+    text-align: center;
+    
+}
+
+.t{
+    color:#3d3a87
+}
+
+
+/* @MEDIAS */
+
+
+@media only screen and (max-width: 990px) {
+    #aviso{
+        display: block;
+        text-align: center;
+        margin: 150px;
+    }
+
+    #div-entero{
+        display: none;
+    }
+    #logo{
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    nav{
+        height: 200px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+  
+}
+@media only screen and (max-width: 584px) {
+    #aviso{
+        display: block;
+        text-align: center;
+        margin: 40px 40PX 200PX 40PX;
+    }
+
+    #div-entero{
+        display: none;
+    }
+
+    #logo{
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    nav{
+        height: 200px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer ul{
+        list-style-type: none;
+    }
+
+}
+@media (min-width: 700px) and(max-width: 1200px) {
+  
+    #logo{
+        height: 50px;
+        margin-right: 10px;
+    }
+
+    nav{
+        height: 200px;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer ul{
+        list-style-type: none;
+    }
+ 
+}
+
+@media (min-width: 1920px) and (max-width: 2560px)  {
+
+
+  
+}
+
+@media (max-width: 1024px) and (max-height: 800px) {
+    
+   
+}
