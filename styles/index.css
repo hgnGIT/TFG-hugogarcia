@@ -410,6 +410,8 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        transition: 0.3 ease;
+
         
     }
     
@@ -422,7 +424,8 @@ footer {
     
     #interior-0 img{
         height: 260PX;
-       
+        transition: 0.3 ease;
+
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
     }
@@ -519,6 +522,8 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: 0.3 ease;
+
     }
 
    
@@ -561,6 +566,8 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
+        transition: 0.3 ease;
+
     }
 
     footer ul{
