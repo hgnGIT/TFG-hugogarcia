@@ -108,7 +108,7 @@ const jugador = new Jugador({
     //tendrán efecto (estará a la derecha)
     ataquesHitbox:{
         offset:{
-            x:-40,
+            x:-55,
             y:50
         },
         width:140,
@@ -187,7 +187,7 @@ const enemigo = new Jugador({
     //declaramos el hitbox del ninja (estará a la izquierda)
     ataquesHitbox:{
         offset:{
-            x:-70,
+            x:-90,
             y:50
         },
         width:171,
