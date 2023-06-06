@@ -417,12 +417,12 @@ footer {
         display: flex;
         flex-direction: column;
         padding: 30px;
-        width: 90%;
+        width: 70%;
     }
     
     #interior-0 img{
-        width: 100%;
-        height: 400PX;
+        height: 260PX;
+       
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
     }
@@ -524,6 +524,9 @@ footer {
    
   
 }
+
+
+
 @media only screen and (max-width: 584px) {
     #sec2 h1{
         text-align: center;
@@ -536,9 +539,13 @@ footer {
         margin-right: 10px;
     }
 
+    #interior-0{
+        width: 100%;
+    }
+
     #interior-0 img{
         width: 100%;
-        height: 300PX;
+        height: 260PX;
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
     }
