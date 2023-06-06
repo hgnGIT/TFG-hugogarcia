@@ -20,6 +20,7 @@
 #container{
     font-family: 'Prompt', sans-serif;  
     background-color: #F1F6F9;
+    overflow-x: hidden;
 }
 
 #ddown{

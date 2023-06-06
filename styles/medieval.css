@@ -11,10 +11,12 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    
 }
 
 #body{
     background-color:  #F1F6F9;
+    
 }
 
 #container{
@@ -124,6 +126,7 @@ canvas{
     position: relative;
      display: inline-block;
     margin: 40px;
+   
 }
 
 #topbar {
@@ -263,6 +266,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 #container h1{
