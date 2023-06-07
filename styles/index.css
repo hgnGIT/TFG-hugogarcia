@@ -35,6 +35,12 @@
                transition:0.3s ease;
 }
 
+#sec3{
+    background-color: NONE;
+    text-align: center;
+    padding: 35px;
+}
+
 nav {
     height: 120px;
     justify-content: center;
